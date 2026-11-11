@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d0c0a">
+  <meta name="description" content="OMASSAGE؛ معرفی خدمات ماساژ امید محمدی‌زاده در مشهد، شامل ماساژ ریلکسی، ورزشی و درمانی.">
+  <title>OMASSAGE | امید محمدی‌زاده | ماساژ مشهد</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0d0c0a;--bg2:#13110e;--panel:#191713;--panel2:#211d16;
+      --gold:#c5a266;--gold2:#ead6ad;--gold3:#8c7041;
+      --text:#f6f1e8;--muted:#aaa398;--line:rgba(197,162,102,.2);
+      --shadow:0 24px 70px rgba(0,0,0,.35)
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:"Vazirmatn",Tahoma,sans-serif;line-height:1.95}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    .wrap{width:min(1160px,calc(100% - 42px));margin:auto}
+    .topline{height:3px;background:linear-gradient(90deg,transparent,var(--gold),var(--gold2),var(--gold),transparent)}
+    header{position:sticky;top:0;z-index:20;background:rgba(13,12,10,.9);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+    nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .brand{font-size:19px;font-weight:900;color:var(--gold2);letter-spacing:1px;line-height:1.2}
+    .brand small{display:block;font-size:9px;font-weight:500;letter-spacing:3px;color:var(--muted);direction:ltr;text-align:right;margin-top:5px}
+    .navlinks{display:flex;align-items:center;gap:25px;font-size:12px;color:#d0c8bb}
+    .navlinks a{transition:.2s}.navlinks a:hover{color:var(--gold2)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 22px;border-radius:999px;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#17130c;font-weight:800;font-size:13px;border:1px solid transparent;transition:.25s;cursor:pointer}
+    .btn:hover{transform:translateY(-3px);filter:brightness(1.08);box-shadow:0 12px 30px rgba(197,162,102,.17)}
+    .btn.ghost{background:transparent;color:var(--gold2);border-color:rgba(197,162,102,.55)}
+    .btn.small{padding:9px 16px;font-size:11px}
+    .eyebrow{color:var(--gold);font-size:11px;letter-spacing:2.4px;font-weight:800}
+    .hero{min-height:690px;display:grid;grid-template-columns:1.04fr .96fr;align-items:center;gap:65px;padding:75px 0 85px;position:relative}
+    .hero:before{content:"";position:absolute;width:450px;height:450px;border-radius:50%;background:rgba(197,162,102,.07);filter:blur(90px);left:4%;top:14%;pointer-events:none}
+    .hero-copy{position:relative;z-index:1}
+    .hero h1{font-size:clamp(40px,6vw,72px);line-height:1.34;margin:18px 0 20px;font-weight:900;letter-spacing:-1.5px}
+    .hero h1 span{color:var(--gold2)}
+    .lead{color:#bdb5a8;max-width:590px;font-size:15px;line-height:2.25}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+    .micro{display:flex;align-items:center;gap:10px;color:#8f887d;font-size:11px;margin-top:27px}
+    .micro i{width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 15px var(--gold)}
+    .hero-art{height:490px;border:1px solid rgba(197,162,102,.34);border-radius:210px 210px 26px 26px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 35%,#5a472a 0,#2b2419 33%,#17140f 69%);display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow)}
+    .hero-art:before,.hero-art:after{content:"";position:absolute;border:1px solid rgba(234,214,173,.26);border-radius:50%;width:310px;height:310px}
+    .hero-art:after{width:410px;height:410px;border-color:rgba(234,214,173,.13)}
+    .monogram{font-family:Georgia,serif;color:rgba(234,214,173,.92);font-size:142px;letter-spacing:-15px;z-index:1;text-shadow:0 10px 40px #000}
+    .art-caption{position:absolute;bottom:39px;z-index:2;color:#e6d4ad;font-size:10px;letter-spacing:4px;direction:ltr}
+    .art-tag{position:absolute;top:34px;right:30px;border:1px solid rgba(234,214,173,.32);border-radius:99px;padding:5px 13px;color:#ead6ad;font-size:10px}
+    .section{padding:94px 0}
+    .section.alt{background:linear-gradient(180deg,transparent,rgba(255,255,255,.018),transparent)}
+    .section-head{text-align:center;margin-bottom:45px}
+    .section-head h2{font-size:clamp(25px,4vw,36px);margin:8px 0;color:var(--text);font-weight:800}
+    .section-head p{color:var(--muted);font-size:13px;margin:0 auto;max-width:650px}
+    .gold-line{width:55px;height:2px;background:linear-gradient(90deg,var(--gold3),var(--gold2));margin:17px auto}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:linear-gradient(145deg,#211e18,#15130f);border:1px solid var(--line);border-radius:20px;padding:29px 25px;min-height:275px;transition:.25s;position:relative;overflow:hidden}
+    .card:after{content:"";position:absolute;width:120px;height:120px;border:1px solid rgba(197,162,102,.11);border-radius:50%;left:-48px;bottom:-48px}
+    .card:hover{transform:translateY(-6px);border-color:rgba(197,162,102,.55)}
+    .num{font-family:Georgia,serif;color:var(--gold);font-size:30px;direction:ltr;text-align:right}
+    .card h3{margin:12px 0 9px;font-size:19px;color:var(--gold2)}
+    .card p{margin:0;color:#aaa398;font-size:12px;line-height:2.2}
+    .card .tag{display:inline-block;margin-top:17px;color:#d4bd91;font-size:10px;border:1px solid rgba(197,162,102,.25);border-radius:99px;padding:3px 10px}
+    .intro-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:center}
+    .visual-panel{min-height:355px;border-radius:24px;border:1px solid rgba(197,162,102,.3);background:radial-gradient(circle at 50% 45%,#4b3a21,#211b12 55%,#15120e);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+    .visual-panel:before,.visual-panel:after{content:"";position:absolute;border:1px solid rgba(234,214,173,.25);border-radius:50%;width:250px;height:250px}
+    .visual-panel:after{width:320px;height:320px}
+    .visual-panel strong{font:100px Georgia,serif;color:var(--gold2);z-index:1;letter-spacing:-10px}
+    .copy h2{font-size:30px;margin:8px 0 14px}
+    .copy p{font-size:13px;color:#b7b0a4;line-height:2.35}
+    .checklist{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+    .check{font-size:12px;color:#d8cbb3;display:flex;gap:9px;align-items:flex-start}
+    .check b{color:var(--gold);font-size:15px;line-height:1.6}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .step{padding:25px 22px;border:1px solid var(--line);border-radius:17px;background:rgba(255,255,255,.018)}
+    .step .n{color:var(--gold);font:30px Georgia,serif}
+    .step h3{font-size:15px;margin:8px 0;color:var(--gold2)}
+    .step p{font-size:12px;color:var(--muted);margin:0}
+    .address-box{display:grid;grid-template-columns:1fr auto;align-items:center;gap:25px;padding:28px 30px;background:linear-gradient(120deg,#211c13,#15130f);border:1px solid var(--line);border-radius:20px}
+    .address-box h3{margin:0 0 6px;color:var(--gold2);font-size:18px}
+    .address-box p{margin:0;color:#c0b8aa;font-size:13px}
+    .address-box small{display:block;color:#8f887d;font-size:10px;margin-top:7px}
+    .faq{max-width:850px;margin:auto;display:grid;gap:12px}
+    details{border:1px solid var(--line);border-radius:14px;background:#15130f;padding:0 19px}
+    summary{cursor:pointer;list-style:none;padding:17px 0;color:#e8d8b9;font-size:13px;font-weight:700;display:flex;justify-content:space-between;gap:15px}
+    summary::-webkit-details-marker{display:none}
+    summary:after{content:"+";color:var(--gold);font-size:20px;line-height:1}
+    details[open] summary:after{content:"−"}
+    details p{margin:0;padding:0 0 17px;color:var(--muted);font-size:12px;line-height:2.2}
+    .contact{background:radial-gradient(ellipse at 50% 0,rgba(197,162,102,.14),transparent 65%),linear-gradient(135deg,#211c13,#13110e);border:1px solid rgba(197,162,102,.3);border-radius:26px;padding:52px 28px;text-align:center;box-shadow:var(--shadow)}
+    .contact h2{font-size:clamp(25px,4vw,35px);margin:8px 0}
+    .contact p{color:var(--muted);font-size:13px;max-width:600px;margin:0 auto 25px}
+    .contact-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+    .social{display:flex;justify-content:center;gap:13px;margin-top:24px;flex-wrap:wrap}
+    .social a{color:var(--gold2);font-size:12px;border-bottom:1px solid rgba(197,162,102,.35);padding-bottom:3px;direction:ltr}
+    .disclaimer{max-width:900px;margin:25px auto 0;color:#817b72;font-size:10px;text-align:center;line-height:2}
+    footer{padding:28px 0;border-top:1px solid var(--line);color:#817b72;font-size:11px;text-align:center}
+    .footer-brand{color:var(--gold2);font-weight:800;letter-spacing:2px;direction:ltr;display:inline-block;margin-bottom:5px}
+    .mobile-cta{display:none}
+    @media(max-width:820px){
+      .navlinks{display:none}.hero{grid-template-columns:1fr;padding:60px 0 55px;gap:38px;min-height:auto}
+      .hero-art{height:365px;max-width:470px;width:100%;margin:auto}.monogram{font-size:110px}
+      .cards{grid-template-columns:1fr}.card{min-height:0}.intro-grid{grid-template-columns:1fr;gap:28px}
+      .visual-panel{min-height:250px}.visual-panel strong{font-size:80px}
+      .steps{grid-template-columns:1fr}.address-box{grid-template-columns:1fr;text-align:center}
+      .section{padding:70px 0}.checklist{grid-template-columns:1fr}
+    }
+    @media(max-width:480px){
+      .wrap{width:min(100% - 30px,1160px)}nav{height:68px}.brand{font-size:16px}
+      nav>.btn{padding:9px 13px;font-size:10px}.hero h1{font-size:42px}
+      .hero-art{height:300px}.hero-art:before{width:230px;height:230px}.hero-art:after{width:300px;height:300px}
+      .actions .btn{width:100%}.section-head h2{font-size:27px}.contact{padding:38px 18px}
+      .mobile-cta{display:flex;position:fixed;bottom:12px;left:12px;right:12px;z-index:30;justify-content:center}
+      .mobile-cta a{width:100%;box-shadow:0 8px 30px #000}
+      footer{padding-bottom:90px}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+<div class="topline"></div>
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#top">OMASSAGE <small>MASHHAD · IRAN</small></a>
+      <div class="navlinks">
+        <a href="#services">خدمات</a><a href="#about">درباره مجموعه</a><a href="#process">مراحل مراجعه</a><a href="#location">آدرس</a><a href="#faq">سؤالات متداول</a>
+      </div>
+      <a class="btn small" href="https://t.me/omassagee" target="_blank" rel="noopener">ارتباط و رزرو ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap hero">
+    <div class="hero-copy">
+      <div class="eyebrow">MASSAGE · RELAXATION · WELLNESS</div>
+      <h1>فرصتی برای<br><span>آرامش دوباره</span></h1>
+      <p class="lead">به صفحه معرفی خدمات ماساژ امید محمدی‌زاده خوش آمدید. اینجا می‌توانید با خدمات ماساژ ریلکسی، ورزشی و درمانی آشنا شوید و برای دریافت اطلاعات بیشتر و هماهنگی مراجعه، از راه ارتباطی مجموعه استفاده کنید.</p>
+      <div class="actions">
+        <a class="btn" href="#services">آشنایی با خدمات <span>←</span></a>
+        <a class="btn ghost" href="https://t.me/omassagee" target="_blank" rel="noopener">گفت‌وگو در تلگرام</a>
+      </div>
+      <div class="micro"><i></i><span>مشهد · صیاد شیرازی ۳۲ · پلاک ۳۳</span></div>
+    </div>
+    <div class="hero-art" aria-label="نشان OMASSAGE">
+      <div class="art-tag">MASSAGE STUDIO</div>
+      <div class="monogram">OM</div>
+      <div class="art-caption">OMASSAGE · MASHHAD</div>
+    </div>
+  </section>
+
+  <section class="section alt" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">OUR SERVICES</div>
+        <h2>خدمات ماساژ</h2><div class="gold-line"></div>
+        <p>هر فرد با هدف و شرایط متفاوتی به ماساژ مراجعه می‌کند. آشنایی با انواع خدمات کمک می‌کند پیش از هماهنگی، انتخاب آگاهانه‌تری داشته باشید.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="num">01</div><h3>ماساژ ریلکسی</h3>
+          <p>ماساژ ریلکسی با هدف ایجاد حس آرامش و کمک به کاهش تنش‌های معمول روزمره انجام می‌شود. این سبک معمولاً با حرکات ملایم‌تر و ریتم آرام شناخته می‌شود و می‌تواند فرصتی برای فاصله گرفتن از شلوغی روز و توجه به آرامش بدن باشد.</p>
+          <span class="tag">آرامش و رفع خستگی روزمره</span>
+        </article>
+        <article class="card">
+          <div class="num">02</div><h3>ماساژ ورزشی</h3>
+          <p>ماساژ ورزشی برای افرادی طراحی می‌شود که فعالیت بدنی و تمرین ورزشی بخشی از برنامه آن‌هاست. نوع و فشار حرکات باید با رشته ورزشی، میزان فعالیت، زمان تمرین و شرایط فرد هماهنگ شود؛ بنابراین گفت‌وگوی اولیه پیش از شروع اهمیت دارد.</p>
+          <span class="tag">مراقبت عضلانی و ریکاوری</span>
+        </article>
+        <article class="card">
+          <div class="num">03</div><h3>ماساژ درمانی</h3>
+          <p>ماساژ درمانی عنوانی برای برخی روش‌های تخصصی ماساژ با هدف کمک به مدیریت تنش و ناراحتی‌های عضلانی است. انتخاب روش مناسب باید با توجه به وضعیت مراجعه‌کننده انجام شود و در صورت وجود درد یا بیماری، نظر پزشک یا متخصص سلامت ضروری است.</p>
+          <span class="tag">متناسب با نیاز مراجعه‌کننده</span>
+        </article>
+      </div>
+      <p class="disclaimer">نوع دقیق تکنیک‌ها، مدت هر جلسه و شرایط ارائه هر خدمت باید پیش از رزرو مستقیماً از مجموعه استعلام شود.</p>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap intro-grid">
+      <div class="visual-panel"><strong>OM</strong></div>
+      <div class="copy">
+        <div class="eyebrow">ABOUT OMASSAGE</div>
+        <h2>درباره امید محمدی‌زاده</h2>
+        <p>OMASSAGE صفحه معرفی خدمات ماساژ امید محمدی‌زاده در شهر مشهد است. هدف این صفحه، ارائه توضیحاتی روشن درباره دسته‌بندی خدمات، راه‌های ارتباطی و نشانی مجموعه است تا مراجعه‌کنندگان بتوانند پیش از هماهنگی، اطلاعات اولیه موردنیاز خود را پیدا کنند.</p>
+        <p>انتخاب نوع ماساژ بهتر است بر اساس هدف مراجعه، میزان فعالیت بدنی، حساسیت‌ها و شرایط جسمی هر فرد انجام شود. پیش از شروع جلسه، درباره انتظارات، نواحی موردنظر، میزان فشار قابل‌تحمل و هرگونه محدودیت یا سابقه پزشکی با ماساژور صحبت کنید.</p>
+        <div class="checklist">
+          <div class="check"><b>✦</b><span>معرفی خدمات متنوع ماساژ</span></div>
+          <div class="check"><b>✦</b><span>امکان ارتباط مستقیم در تلگرام</span></div>
+          <div class="check"><b>✦</b><span>نمایش نشانی مجموعه در مشهد</span></div>
+          <div class="check"><b>✦</b><span>اطلاعات قابل مشاهده در موبایل و دسکتاپ</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">HOW TO GET STARTED</div>
+        <h2>مراحل هماهنگی و مراجعه</h2><div class="gold-line"></div>
+        <p>برای اینکه پیش از مراجعه پاسخ پرسش‌های اصلی خود را بگیرید، این مسیر ساده را دنبال کنید.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="n">01</div><h3>ارتباط و پرسش</h3><p>از طریق تلگرام پیام دهید و درباره نوع خدمات، مدت جلسه، هزینه و زمان‌های خالی سؤال کنید.</p></div>
+        <div class="step"><div class="n">02</div><h3>انتخاب خدمت مناسب</h3><p>هدف خود از مراجعه و هر نکته مهم درباره شرایط جسمی یا فعالیت ورزشی‌تان را مطرح کنید تا درباره گزینه مناسب راهنمایی بگیرید.</p></div>
+        <div class="step"><div class="n">03</div><h3>تأیید زمان مراجعه</h3><p>پس از دریافت اطلاعات و توافق درباره هزینه و زمان، نوبت خود را مستقیماً با مجموعه هماهنگ کنید.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="location">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">OUR LOCATION</div>
+        <h2>نشانی مجموعه</h2><div class="gold-line"></div>
+        <p>برای مراجعه حضوری، نشانی زیر را در نظر داشته باشید. پیش از حرکت، جزئیات مسیر و هماهنگی حضور را از طریق تلگرام بررسی کنید.</p>
+      </div>
+      <div class="address-box">
+        <div><h3>مشهد · صیاد شیرازی ۳۲ · پلاک ۳۳</h3><p>آدرس اعلام‌شده مجموعه OMASSAGE</p><small>برای دریافت راهنمایی مسیر یا تأیید نشانی، پیام ارسال کنید.</small></div>
+        <a class="btn" href="https://nshn.ir/b97b1-OFpJBE5Y" target="_blank" rel="noopener noreferrer">مسیریابی از طریق نشان ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">FAQ</div>
+        <h2>سؤالات متداول</h2><div class="gold-line"></div>
+        <p>پاسخ پرسش‌های اولیه درباره خدمات و هماهنگی مراجعه.</p>
+      </div>
+      <div class="faq">
+        <details><summary>چه خدماتی معرفی شده است؟</summary><p>در حال حاضر خدمات ماساژ ریلکسی، ورزشی و درمانی در این صفحه معرفی شده‌اند. برای اطلاع از تکنیک‌های دقیق و خدمات قابل ارائه، مستقیماً با مجموعه تماس بگیرید.</p></details>
+        <details><summary>هزینه هر جلسه چقدر است؟</summary><p>تعرفه‌ها هنوز از طرف مجموعه اعلام نشده‌اند. برای اطلاع از قیمت به‌روز، مدت جلسه و تفاوت هزینه خدمات، از طریق تلگرام سؤال کنید.</p></details>
+        <details><summary>ساعات کاری چه زمانی است؟</summary><p>ساعات کاری هنوز تأیید نشده است. لطفاً پیش از مراجعه، زمان فعالیت و نوبت خالی را از طریق تلگرام هماهنگ کنید.</p></details>
+        <details><summary>چطور نوبت رزرو کنم؟</summary><p>روی دکمه ارتباط در تلگرام بزنید و نوع ماساژ موردنظر و زمان پیشنهادی خود را ارسال کنید. نوبت پس از تأیید مجموعه قطعی خواهد بود.</p></details>
+        <details><summary>برای انتخاب ماساژ چه نکاتی را باید بگویم؟</summary><p>هدف مراجعه، میزان فعالیت ورزشی، نواحی دارای حساسیت یا ناراحتی، حساسیت‌های پوستی و هرگونه بیماری یا شرایط پزشکی مهم را پیش از شروع مطرح کنید.</p></details>
+        <details><summary>آیا ماساژ جایگزین درمان پزشکی است؟</summary><p>خیر. ماساژ جایگزین تشخیص، درمان یا توصیه پزشک نیست. اگر درد مداوم، آسیب، بیماری زمینه‌ای یا شرایط پزشکی خاص دارید، پیش از دریافت ماساژ با متخصص سلامت مشورت کنید.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact">
+        <div class="eyebrow">CONTACT · CONNECT · BOOK</div>
+        <h2>برای اطلاعات بیشتر پیام بدهید</h2>
+        <p>برای پرسیدن تعرفه‌ها، ساعات کاری، مدت جلسه‌ها، جزئیات خدمات و هماهنگی نوبت، از راه‌های ارتباطی زیر استفاده کنید.</p>
+        <div class="contact-actions">
+          <a class="btn" href="https://t.me/omassagee" target="_blank" rel="noopener">پیام در تلگرام ↗</a>
+          <a class="btn ghost" href="https://www.instagram.com/omassagee/" target="_blank" rel="noopener">مشاهده اینستاگرام ↗</a>
+        </div>
+        <div class="social">
+          <a href="https://t.me/omassagee" target="_blank" rel="noopener">TELEGRAM: @omassagee</a>
+          <a href="https://www.instagram.com/omassagee/" target="_blank" rel="noopener">INSTAGRAM: @omassagee</a>
+        </div>
+      </div>
+      <p class="disclaimer">اطلاعات قیمت و ساعت کاری در این نسخه درج نشده‌اند؛ لطفاً پیش از مراجعه آن‌ها را مستقیماً از مجموعه استعلام کنید. ماساژ برای همه شرایط جسمی مناسب نیست و در موارد پزشکی باید با متخصص سلامت مشورت شود.</p>
+    </div>
+  </section>
+</main>
+
+<div class="mobile-cta"><a class="btn" href="https://t.me/omassagee" target="_blank" rel="noopener">ارتباط و هماهنگی در تلگرام ↗</a></div>
+<footer>
+  <div class="wrap"><div class="footer-brand">OMASSAGE</div><br>امید محمدی‌زاده · خدمات ماساژ در مشهد<br>© <span id="year">2026</span> OMASSAGE · تمامی حقوق محفوظ است</div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
